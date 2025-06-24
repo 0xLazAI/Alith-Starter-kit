@@ -1,0 +1,240 @@
+  2025-06-19T19:30:43.746337Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 36
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Provide clear, concise, and accurate responses. Be friendly and engaging in your conversations."
+
+[1mUser[0m:
+"hi"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates/interface/src/requests/completion/request.rs:93
+
+  2025-06-19T19:30:45.964140Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Hello! How can I assist you today?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-4-0613"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 2.21793575s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 36
+    completion_tokens: 9
+    total_tokens: 45
+    token_calls: None
+    at crates/interface/src/requests/completion/request.rs:111
+
+  2025-06-19T19:31:44.389905Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 40
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Provide clear, concise, and accurate responses. Be friendly and engaging in your conversations."
+
+[1mUser[0m:
+"what is your name?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates/interface/src/requests/completion/request.rs:93
+
+  2025-06-19T19:31:47.723529Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "I'm an AI developed by OpenAI and I don't have a personal name. You can just call me 'AI'. I'm here to help you with any questions you have."
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-4-0613"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 3.334539875s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 40
+    completion_tokens: 37
+    total_tokens: 77
+    token_calls: None
+    at crates/interface/src/requests/completion/request.rs:111
+
+  2025-06-19T19:32:03.800783Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 41
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Provide clear, concise, and accurate responses. Be friendly and engaging in your conversations."
+
+[1mUser[0m:
+"aren't you alith?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates/interface/src/requests/completion/request.rs:93
+
+  2025-06-19T19:32:07.597819Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "I can see where you might be confused, but actually, I'm an AI developed by OpenAI, called GPT-3. I don't have a specific name like Alith. Can I assist you with anything else today?\n"
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-4-0613"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 3.797074334s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 41
+    completion_tokens: 47
+    total_tokens: 88
+    token_calls: None
+    at crates/interface/src/requests/completion/request.rs:111
+
+  2025-06-19T19:56:13.273075Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 47
+  messages:
+
+[1mSystem[0m:
+"your name is Alith. You are a helpful AI assistant. Provide clear, concise, and accurate responses. Be friendly and engaging in your conversations."
+
+[1mUser[0m:
+"tell me your name now?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates/interface/src/requests/completion/request.rs:93
+
+  2025-06-19T19:56:15.445024Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Hello! My name is Alith. I'm your AI assistant. How may I assist you today?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "gpt-4-0613"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 2.172320709s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 47
+    completion_tokens: 21
+    total_tokens: 68
+    token_calls: None
+    at crates/interface/src/requests/completion/request.rs:111
+
